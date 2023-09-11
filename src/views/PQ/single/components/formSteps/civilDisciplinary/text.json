@@ -1,0 +1,223 @@
+[
+  {
+    "AcadQual": [
+      {
+        "PQRecord_id": 1,
+        "pq_id": 1,
+        "RecordType": "AcadQual",
+        "A_Qual": "Name1",
+        "A_Institute": "institute1",
+        "A_qualyear": "2003"
+      },
+      {
+        "PQRecord_id": 2,
+        "pq_id": 1,
+        "RecordType": "AcadQual",
+        "A_Qual": "Name2",
+        "A_Institute": "institute2",
+        "A_qualyear": "2003"
+      }
+    ],
+    "ProfQual": [
+      {
+        "PQRecord_id": 1,
+        "pq_id": 1,
+        "RecordType": "ProfQual",
+        "B_MembershipNumber": "Number1",
+        "B_MembershipQual": "Qual1",
+        "B_MembershipQualType": 1,
+        "B_Membershipyear": "2003"
+      },
+      {
+        "PQRecord_id": 2,
+        "pq_id": 1,
+        "RecordType": "ProfQual",
+        "B_MembershipNumber": "Number2",
+        "B_MembershipQual": "Qual2",
+        "B_MembershipQualType": 2,
+        "B_Membershipyear": "2002"
+      }
+    ],
+    "CurrMem": [
+      {
+        "PQRecord_id": 2,
+        "pq_id": 1,
+        "RecordType": "CurrMem",
+        "C_MembershipNumber": "Number1",
+        "C_Institute": "institute1",
+        "C_MembershipYear": "2003",
+        "C_MembershipType_AFM": "A",
+        "C_ContactName": "XYZ",
+        "C_ContactPhone": "+91 98989 89898",
+        "C_Address_id": 100
+      },
+      {
+        "PQRecord_id": 1,
+        "pq_id": 1,
+        "RecordType": "CurrMem",
+        "C_MembershipNumber": "Number2",
+        "C_Institute": "institute2",
+        "C_MembershipYear": "2003",
+        "C_MembershipType_AFM": "F",
+        "C_ContactName": "ABC",
+        "C_ContactPhone": "+91 98989 89899",
+        "C_Address_id": 101
+      }
+    ],
+    "Training": [
+      {
+        "PQRecord_id": 1,
+        "pq_id": 1,
+        "RecordType": "Training",
+        "D_Training": "Training1",
+        "D_trainingProvider": "provider1",
+        "D_Duration": "2months",
+        "D_TrainingYear": "2003"
+      },
+      {
+        "PQRecord_id": 2,
+        "pq_id": 1,
+        "RecordType": "Training",
+        "D_Training": "Training2",
+        "D_trainingProvider": "provider2",
+        "D_Duration": "2months",
+        "D_TrainingYear": "2002"
+      }
+    ],
+    "Employer": [
+      {
+        "PQRecord_id": 1,
+        "pq_id": 1,
+        "RecordType": "Employer",
+        "E_Employername": "employer1",
+        "E_employerAddress_id": 100,
+        "E_EmployerContact": "+91 98989 89898",
+        "E_NatureOfBusiness": "business",
+        "E_Position": "director",
+        "E_EmploymentStartDate": "2003-10-10",
+        "E_EmploymentEndDate": "2004-10-10"
+      },
+      {
+        "PQRecord_id": 2,
+        "pq_id": 1,
+        "RecordType": "Employer",
+        "E_Employername": "employer1",
+        "E_employerAddress_id": 100,
+        "E_EmployerContact": "+91 98989 89898",
+        "E_NatureOfBusiness": "business",
+        "E_Position": "director",
+        "E_EmploymentStartDate": "2003-10-10",
+        "E_EmploymentEndDate": "2004-10-10"
+      }
+    ],
+    "Director": [
+      {
+        "PQRecord_id": 1,
+        "pq_id": 1,
+        "RecordType": "Director",
+        "F_CompanyName": "company1",
+        "F_CompanyNumber": "number1",
+        "F_NatureOfBusiness": "nature1",
+        "F_CountryOfReg": 91,
+        "F_Position": "director"
+      },
+      {
+        "PQRecord_id": 2,
+        "pq_id": 1,
+        "RecordType": "Director",
+        "F_CompanyName": "company2",
+        "F_CompanyNumber": "number2",
+        "F_NatureOfBusiness": "nature2",
+        "F_CountryOfReg": 92,
+        "F_Position": "secretary"
+      }
+    ],
+    "Trustee": [
+      {
+        "PQRecord_id": 1,
+        "pq_id": 1,
+        "RecordType": "Trustee",
+        "G_TrustName": "trut1",
+        "G_TrustNumber": "number1",
+        "G_CountryOfReg": 91,
+        "G_Position": "enforcer"
+      },
+      {
+        "PQRecord_id": 2,
+        "pq_id": 1,
+        "RecordType": "Trustee",
+        "G_TrustName": "trust2",
+        "G_TrustNumber": "number2",
+        "G_CountryOfReg": 91,
+        "G_Position": "trustee"
+      }
+    ],
+    "Partner": [
+      {
+        "PQRecord_id": 1,
+        "pq_id": 1,
+        "RecordType": "Partner",
+        "H_CompanyName": "comapny1",
+        "H_CompanyNumber": "number1",
+        "H_CountryOfReg": 91,
+        "H_NatureOfBusiness": "nature1"
+      },
+      {
+        "PQRecord_id": 2,
+        "pq_id": 1,
+        "RecordType": "Partner",
+        "H_CompanyName": "company2",
+        "H_CompanyNumber": "number2",
+        "H_CountryOfReg": 91,
+        "H_NatureOfBusiness": "nature2"
+      }
+    ],
+    "KeyPerson": [
+      {
+        "PQRecord_id": 1,
+        "pq_id": 1,
+        "RecordType": "KeyPerson",
+        "J_Position": "postion1",
+        "J_jurisdiction": "jury1",
+        "J_Year": "2003",
+        "J_NatureOfBusiness": "nature1",
+        "J_RAuthority": "authority1"
+      },
+      {
+        "PQRecord_id": 2,
+        "pq_id": 1,
+        "RecordType": "KeyPerson",
+        "J_Position": "postion2",
+        "J_jurisdiction": "jury2",
+        "J_Year": "2003",
+        "J_NatureOfBusiness": "nature2",
+        "J_RAuthority": "authority2"
+      }
+    ],
+    "PrevAppln": [
+      {
+        "PQRecord_id": 1,
+        "pq_id": 1,
+        "RecordType": "PrevAppln",
+        "K_position": "position1",
+        "K_jurisdiction": "jury1",
+        "K_RAuthority": "authority1",
+        "K_Year": "2003",
+        "K_NatureOfBusiness": "nature1",
+        "K_outcome": "outcome1"
+      },
+      {
+        "PQRecord_id": 2,
+        "pq_id": 1,
+        "RecordType": "PrevAppln",
+        "K_position": "position2",
+        "K_jurisdiction": "jury2",
+        "K_RAuthority": "authority2",
+        "K_Year": "2003",
+        "K_NatureOfBusiness": "nature2",
+        "K_outcome": "outcome2"
+      }
+    ]
+  }
+]
+
